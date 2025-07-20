@@ -1,3 +1,5 @@
+//Name: David Chinedu
+
 //Upskill profile Object
 
 const upskillprofile = {
@@ -15,7 +17,9 @@ upskillprofile.Introduction();
 //Second hobby
 console.log('My second best hobby is', upskillprofile.hobbies[1]);
 
-function greetUser (callback) {
+//Bruce callback
+
+function CTA (callback) {
     console.log('Hi you are specially welcome, am Bruce and i will be your program Coordinator for the upskill program.')
     callback();
 }
@@ -24,4 +28,4 @@ function Booster() {
     console.log('So are you ready to embark on this journey, if yes give me a JIGGY!!!!!!');
 }
 
-greetUser(Booster);
+CTA(Booster);
